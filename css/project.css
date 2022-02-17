@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+html,
+body{
+  height: 70%;
+}
+
+#header {
+	height: 70%;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "futura-pt",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3";
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0;
+  left: 4px;
+}
+
+h3 {
+  font-family: "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 30px;
+  left: 3px;
+}
+
+.intro-navigate{
+	width: 100%;
+	position: absolute;
+	top: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #eef1f8;
+	background-color: #3E497A;
+	backdrop-filter: saturate(180%) blur(20px);
+}
+
+.intro-navigate>p{
+	text-align: center;
+	margin: 0px;
+}
+
+.navigater-list{
+	font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
+	color:#444444;
+	font-weight: 100;
+	font-size: 1.2em;
+  word-spacing: 150px;
+}
+.navigater-list>a {
+	padding: 25px 20px 25px 20px;
+	line-height: 60px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #F0F0F0;
+}
+
+.article-entry{
+  position: relative;
+  bottom:200px;
+  overflow: hidden;
+  font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
+  letter-spacing: 1px;
+  font-size: 40px;
+  margin-bottom: 0px;
+  text-align:left;
+  letter-spacing: 1px;
+  line-height: 30px;
+  max-width: 1050px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 0 20px;
+}
+
+.outer{
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.article-entry hr {
+    border: 1px dashed #eef1f8;
+}
+
+.article-entry ul{
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    margin-right: 100px;
+    line-height: 1.6em;
+    list-style: circle;
+    margin: 0 20px;
+}
+
+#footer a {
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+#footer {
+	width: 100%;
+	background: #292b31;
+	text-align: center;
+	color: #BBB;
+	padding: 20px 0 10px;
+  position: relative;
+  bottom: 0px;
+}
+footer>.container>.row>p>a {
+	color: #ddd;
+}
+
+.wrapper,.copyright {
+	padding: 10px;
+	text-align: center;
+}

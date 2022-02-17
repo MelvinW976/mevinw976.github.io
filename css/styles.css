@@ -1,0 +1,174 @@
+
+#carousel-img0 {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body{
+  margin: 0;
+  text-align: center;
+  font-family: "Helvetica Neue", serif;
+  width: 100%;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+#header {
+	height: 100%;
+  overflow: hidden;
+}
+
+.homelogobackup{
+  width: 387px;
+  font-family: serif;
+
+  text-decoration: none;
+  filter:alpha(opacity=90);  -moz-opacity:0.9;  -khtml-opacity: 0.9;  opacity: 0.9;
+
+}
+.homelogobackdown{
+
+  width: 387px;
+  font-family: serif;
+  text-decoration: none;
+  filter:alpha(opacity=90);  -moz-opacity:0.9;  -khtml-opacity: 0.9;  opacity: 0.9;
+
+}
+.homelogobackup>h1>a{
+  font-family: "futura-pt";
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.homelogobackup>h3>a{
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+.homelogobackdown>h4{
+  letter-spacing: 2px;
+}
+
+.home{
+	max-width: 400px;
+	height: auto;
+	padding: 10px;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	margin-top: -100px;
+	backdrop-filter:  blur(2px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	filter:alpha(opacity=80);  -moz-opacity:0.9;  -khtml-opacity: 0.9;  opacity: 0.9;
+}
+
+h1 {
+  font-family: "futura-pt",Helvetica,Arial,"Hiragino Sans GB","Hiragino Sans GB W3";
+  font-weight: bold;
+  font-size: 25px;
+  margin: 12px 0;
+  left: 4px;
+}
+
+h3 {
+  font-family: "Hiragino Sans GB", "Hiragino Sans GB W3", Microsoft JhengHei, WenQuanYi Micro Hei, "Microsoft YaHei", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  margin-bottom: 30px;
+  left: 3px;
+}
+
+.intro-navigate{
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid #eef1f8;
+	background-color: #3E497A;
+	backdrop-filter: saturate(180%) blur(20px);
+	-webkit-backdrop-filter: saturate(180%) blur(20px);
+}
+
+.intro-navigate>p{
+	text-align: center;
+	margin: 0px;
+}
+
+.navigater-list{
+	font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
+
+	color:#444444;
+	font-weight: 100;
+	font-size: 1.2em;
+  word-spacing: 150px;
+
+}
+.navigater-list>a{
+	padding: 25px 20px 25px 20px;
+	line-height: 60px;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: #F0F0F0;
+}
+
+.article-entry{
+  position: relative;
+  top:100px;
+  font-family: Arial,simsun,"宋体","Microsoft YaHei","微软雅黑";
+  letter-spacing: 1px;
+  font-size: 30px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 250px;
+}
+
+.article-entry hr{
+    border: 1px dashed #eef1f8;
+}
+
+.article-entry ul{
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    margin-right: 100px;
+    line-height: 1.6em;
+    list-style: circle;
+    margin: 0 20px;
+}
+
+
+#footer a {
+  text-decoration: none;
+}
+#footer a:hover {
+  color: #414141;
+  text-decoration: none;
+}
+#footer {
+	width: 100%;
+	background: #292b31;
+	text-align: center;
+	color: #BBB;
+	padding: 20px 0 10px;
+  position: relative;
+  bottom: 0px;
+}
+footer>.container>.row>p>a {
+	color: #ddd;
+}
+
+.wrapper,.copyright {
+	padding: 10px;
+	text-align: center;
+}
